@@ -4,7 +4,8 @@
   "description": "A REST API project, part of Free Code Camp's curriculum",
   "main": "server.js",
   "scripts": {
-    "start": "node ./src/server.js"
+    "start": "node ./src/server.js",
+    "dev": "nodemon ./src/server.js"
   },
   "dependencies": {
     "express": "^4.16.4",
@@ -15,16 +16,16 @@
     "shortid": "^2.2.15",
     "dotenv": "^8.1.0"
   },
-  "engines": {
-    "node": "10.0.0"
-  },
   "repository": {
-    "url": "https://gomix.com/#!/project/welcome-project"
+    "url": "https://github.com/marcusreaiche/api-ms-project4-exercise-tracker.git"
   },
   "license": "MIT",
   "keywords": [
     "mongodb",
     "express",
     "node"
-  ]
+  ],
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
 }
